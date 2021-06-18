@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(103, 148, 148);
+    justify-content: flex-endss;
+    /* justify-content: center;
+    height: 600px;
+    align-items: center; */
+
+    /* jei norime kad norime standartifkai tai f=sitos komandos nereikia */
+    /* flex-direction: row; */
+}
+.item {
+    /* sitos komandos nereikai, jei naudoji flex komanda */
+    /* width: ; */
+    /* jei nori kad sukristu, reikia nurodyti dydi, nuo kurio jis turi kristi i kita eilutee */
+    flex-basis: 400px;
+    /* komanda kaip santykis kad vienodai deliotuusi */
+    flex-grow: 1;
+    padding: 50px;
+}
+
+.item-1 {
+    /* sita komanda reiklainga kai norim kad stulpelis mawintusi daug greiciau */
+    flex-shrink: 2;
+}

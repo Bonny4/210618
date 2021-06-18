@@ -9,9 +9,9 @@ footer .info {
 }
 
 footer {
-    background-color: #736B02;
+    background-image: url(IMG//fruitveg.jpeg);
     color: white;
-    width: 100;
+    width: 100vw;
     
 }
 
@@ -21,7 +21,22 @@ footer {
     padding: 1em;
     background-color: #d99e554d;
 }
-.icons {
-    
+main {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* .icons {
+
+} */
+
+header {
+    background-image: url(IMG//fruitveg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1em;
+}
+header h1 {
+    font-weight: bold;
 }
 
